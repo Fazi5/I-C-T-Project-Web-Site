@@ -1,0 +1,156 @@
+body{
+    background-image: url('image\ back.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family: Arial, sans-serif;
+   }
+   
+   .navbar {
+    background-color: #3d89bc;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 23px;
+    margin: 20px;
+    box-shadow: 10%;
+    border-radius: 10px;
+   }
+   
+   .navbar img {
+  height: 50px;
+    text-align: center;
+    padding: 14px 16px;
+    border-radius: 10px;
+   }
+   
+   .navbar a:hover {
+    background-color: #69bfed;
+    border: #107fc9;
+    border-left: 30px;
+    
+   }
+   
+   .navbar search {
+    width: 330px;
+    float: left;
+    margin-left: 50px; /* Adjust the margin-left */
+  }
+  
+  .navbar srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: solid black;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  
+  .navbar btn {
+    width: 100px;
+    height: 40px;
+    margin-top: 13px;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .navbar btn:focus {
+    outline:#69bfed;
+  }
+  
+  .navbar srch:focus {
+    outline:#69bfed;
+  }
+   .logo img{
+    height: 90px;
+    width: 90px; 
+    float: left;
+    padding: 23px;
+    left: auto;
+    top: auto;
+   }
+   main {
+    font-family: Arial, sans-serif;
+   }
+   h1{
+    max-width: 1000px;
+    text-align: center;
+    background-color:#3d89bc;
+    background-size: 30px;
+    width: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10%;
+    padding: 23px;
+    margin: 20px;
+   }
+   section{
+    max-width: 1000px;
+    text-align: center;
+    background-color:#3d89bc;
+    background-size: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    padding: 23px;
+    margin: 20px;
+}
+
+footer {
+  background-color: #3084bd;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+ 
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+ 
+.footer-content div {
+  flex: 1;
+}
+ 
+.footer-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+ 
+.footer-content li a {
+  color: white;
+  text-decoration: none;
+}
+ 
+.footer-content li a:hover {
+  color: #000000;
+}
+ 
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+ 
+ /* Social Media */
+.social-media nav a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+ 
+.social-media nav a:hover {
+  color: #000000;
+}

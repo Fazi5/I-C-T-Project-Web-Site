@@ -1,0 +1,310 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('image back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: -ms-flexbox;
+    overflow: scroll;
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    width: 30%; /* Adjust the width of the logo */
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: -4%;
+  }
+  
+  .logo img {
+    max-width: 70%;
+    height: 36%;
+    border-radius: 50%;
+  }
+  
+  .navigation-box {
+    width: 133%; /* Adjust the width of the navigation box */
+    background-color: #3084bd; /* Change to your desired background color for the navigation box */
+    padding: 25px;
+    box-sizing: border-box;
+    height: 30%;
+    border-radius: 15px; /* Adjust the border-radius for rounded corners */
+    margin-top: 20px; /* Add space before the navigation bar */
+    margin-left: -24%;
+  }
+  
+  .navigation-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Align items horizontally */
+    flex-direction: row; /* Set the direction to row */
+  }
+  
+  .navigation-box li {
+    padding: 5px;
+    margin-right: 40px; /* Adjust spacing between buttons */
+    transition: background-color 0.3s ease; /* Apply transition to background-color */
+  }
+  
+  .navigation-box li:hover {
+    background-color: #3498db; /* Change background color on hover */
+  }
+  
+  
+  .navigation-box a {
+    text-decoration: none;
+    color: #fff; /* Text color for navigation links */
+    font-weight: bold;
+  }
+  
+  .image-container {
+    margin-top: -10%;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    position: relative;
+    width: 100%; /* 100% of the viewport width */
+    max-width: 1100%;
+    height: 70%; /* 100% of the viewport height */
+    overflow: hidden; /* Hide any overflowing content */
+    margin-bottom: 7%;
+  }
+  
+  .image-container img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+    border-radius: 45px; /* Adjust the border-radius for rounded corners */
+    margin: 0 auto;
+  }
+  
+  .upper{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    text-align: right;
+    background-attachment: fixed;
+  }
+  
+  .text-over-image {
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: bottom-left;
+    margin-left: 5%;
+    color: #ffffff; /* Text color for text over the image */
+  }
+  
+  .text-over-image h1 {
+    font-size: 2em; /* Adjust the font size for the heading */
+    margin-bottom: 10px;
+    margin-left: 7%;
+  }
+  
+  .text-over-image p {
+    font-size: 1.2em; /* Adjust the font size for the paragraph */
+  }
+  
+  /* Add this CSS code to your existing styles */
+  
+  .right-box {
+    width: 50%; /* Full width */
+    box-sizing: border-box;
+    background-color: #3084bd;
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 48%;
+    margin-bottom: 4%;
+  }
+  
+  .club-rank {
+    width: 50%; /* Full width */
+    box-sizing: border-box;
+    background-color: #3084bd;
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    float: right;
+    margin-right: 2%;
+  }
+  
+  .left-box {
+    width: 43%; /* Full width */
+    box-sizing: border-box;
+    background-color: #3084bd;
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 52%;
+    margin-left: 2%;
+    margin-bottom: 4%;
+  }
+  
+  .search {
+    text-align: right; /* Center the search bar within the body */
+    margin-top: 0px; /* Adjust the top margin as needed */
+    margin-right: -240px;
+  }
+  
+  .srch {
+    font-family: 'Times New Roman';
+    width: 200px; /* Adjust the width of the search input */
+    height: 25px; /* Adjust the height of the search input */
+    padding: 10px; /* Add padding to the search input */
+    border: 1px solid #ccc; /* Add a border to the search input */
+    border-radius: 5px; /* Round the corners of the search input */
+    margin-right: 1px; /* Add right margin to create space between input and button */
+  }
+  
+  .btn {
+    width: 80px; /* Adjust the width of the search button */
+    height: 25px; /* Adjust the height of the search button */
+    background-color: #3498db; /* Set the background color of the button */
+    color: #fff; /* Set the text color of the button */
+    border: none; /* Remove the border from the button */
+    border-radius: 5px; /* Round the corners of the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    padding: 2%;
+  }
+  
+  /* Add hover effect for the button */
+  .btn:hover {
+    background-color: #2980b9; /* Change background color on hover */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #3084bd;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+   
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+   
+  .footer-content div {
+    flex: 1;
+  }
+   
+  .footer-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+   
+  .footer-content li a {
+    color: white;
+    text-decoration: none;
+  }
+   
+  .footer-content li a:hover {
+    color: #000000;
+  }
+   
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+  }
+   
+   /* Social Media */
+  .social-media nav a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+   
+  .social-media nav a:hover {
+    color: #000000;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: black;
+  }
+  
+  .logo-team{
+    width: 13%;
+    align-content: center;
+  }
+  
+  .logo-rank{
+    width: 5%;
+    align-content: center;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .link{
+    margin-top: 0%;
+  }
+  
+  .link a{
+    font-weight: bolder;
+    color: #000000;
+  }
+  
+  .match-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    width: 43%; /* Full width */
+    box-sizing: border-box;
+    background-color: #3084bd;
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 52%;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    font-size: larger;
+  }
+  
+  .match-box-r {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    width: 43%; /* Full width */
+    box-sizing: border-box;
+    background-color: #3084bd;
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 52%;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    font-size: larger;
+  }
+  
+  .body-upmatch{
+    justify-content: center;
+  }
